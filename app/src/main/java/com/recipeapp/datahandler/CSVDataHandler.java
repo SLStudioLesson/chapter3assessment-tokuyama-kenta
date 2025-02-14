@@ -2,7 +2,9 @@ package com.recipeapp.datahandler;
 
 import java.util.ArrayList;
 
-public class CSVDataHandler implements IDataHandlerable{
+import com.recipeapp.model.Recipe;
+
+public class CSVDataHandler implements IDataHandlerable, IDataHandlerable1, IDataHandlerable2, IDataHandlerable3{
     private String filePath;
 
     public CSVDataHandler(){

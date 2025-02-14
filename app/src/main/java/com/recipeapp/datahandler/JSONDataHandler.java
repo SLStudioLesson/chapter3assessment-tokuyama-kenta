@@ -1,8 +1,10 @@
 package com.recipeapp.datahandler;
 
 import java.util.ArrayList;
+import com.recipeapp.model.Recipe;
 
-public class JSONDataHandler  implements IDataHandlerable{
+
+public class JSONDataHandler  implements IDataHandlerable,IDataHandlerable1,IDataHandlerable2,IDataHandlerable3{
     @Override
     public String getMode(){
         return "JSON";
