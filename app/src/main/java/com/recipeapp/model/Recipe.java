@@ -6,17 +6,16 @@ public class Recipe {
     private String name;
     private ArrayList<Ingredient> ingredients = new ArrayList<>();
 
-    public Recipe(String name, ArrayList<Ingredient> ingredients){
+    public Recipe(String name, ArrayList<Ingredient> ingredients) {
         this.name = name;
         this.ingredients = ingredients;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
-    public ArrayList<Ingredient> getIngredients(){
+
+    public ArrayList<Ingredient> getIngredients() {
         return ingredients;
     }
 }
-
-
